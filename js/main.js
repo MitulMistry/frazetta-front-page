@@ -1,13 +1,20 @@
 $(document).ready(function() {
-	console.log( "ready!" );
+	setYear();
+	setImageHover();
+});
+
+function setImageHover() {
 	$('.img-hover').hover(
 		function() {
 			$(this).fadeTo('fast', .5);
-			//$(this).addClass('img-highlight');			
 		},
 		function() {
 			$(this).fadeTo('fast', 1);
-			//$(this).removeClass('img-highlight');
 		}
 	);
-});
+}
+
+function setYear() {
+  var thisYear = new Date().getFullYear();
+  $('.year').text(thisYear);
+}

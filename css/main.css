@@ -23,7 +23,7 @@
   display: flex;
 }
 
-.img-responsive {
+.img-fluid {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -173,6 +173,7 @@ body a:hover {
 
 .custom-footer li {
 	margin-bottom: 4px;
+	font-size: .9em;
 }
 
 .custom-footer li a {
@@ -186,6 +187,7 @@ body a:hover {
 .footer-end-text {
 	color: #763335;
 	font-family: 'Open Sans', serif;
+	font-size: .9em;
 	text-transform: uppercase;
 	text-align:center;
 }
