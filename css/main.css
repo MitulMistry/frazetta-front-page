@@ -59,7 +59,7 @@ body a:hover {
 	color: black;
 	font-family: 'Open Sans', serif;
 	text-align: right;
-	padding: 0;
+	/*padding: 0;*/
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -86,7 +86,7 @@ body a:hover {
 	font-weight: 700;
 	font-size: 90px;
 	color: white;
-	margin-top: 330px;
+	/*margin-top: 330px;*/
 	text-align: center;
 	text-shadow: 1px 1px 3px black;
 }
