@@ -102,11 +102,25 @@ body a:hover {
 .jumbotron h1 {
 	font-family: 'Cinzel Decorative', cursive;
 	font-weight: 700;
-	font-size: 90px;
+	font-size: 5.5em;
 	color: white;
-	/*margin-top: 330px;*/
 	text-align: center;
 	text-shadow: 1px 1px 3px black;
+}
+
+@media (max-width: 576px) {
+	.jumbotron {
+		height: 400px;
+	}
+
+	.jumbotron h1 {
+		font-size: 3em;
+	}
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
 }
 
 .h1-header {
