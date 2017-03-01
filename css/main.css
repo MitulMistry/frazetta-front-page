@@ -51,8 +51,20 @@ body a:hover {
 	font-size: 1.2em;
 }
 
-.navbar .nav > li > a {
+.navbar-light .navbar-nav .nav-link {
 	color: #763335;
+	transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-webkit-transition: color 0.1s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9E9393;
+}
+
+.navbar-nav .active > .nav-link {
+	color: black;
 }
 
 .navbar p {
@@ -178,6 +190,10 @@ body a:hover {
 
 .custom-footer li a {
 	color: #763335;
+	transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-webkit-transition: color 0.1s linear;
 }
 
 .custom-footer li a:hover {

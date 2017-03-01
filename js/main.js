@@ -6,10 +6,10 @@ $(document).ready(function() {
 function setImageHover() {
 	$('.img-hover').hover(
 		function() {
-			$(this).fadeTo('fast', .5);
+			$(this).fadeTo(140, .5);
 		},
 		function() {
-			$(this).fadeTo('fast', 1);
+			$(this).fadeTo(140, 1);
 		}
 	);
 }
