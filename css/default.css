@@ -59,6 +59,12 @@ body a:hover {
 	-webkit-transition: color 0.1s linear;
 }
 
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right!important; /* equivalent of .float-right class, adds class when screen is bigger than sm breakpoint*/
+	}
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #9E9393;
 }
