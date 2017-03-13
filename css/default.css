@@ -210,6 +210,16 @@ body a:hover {
 	top: 80%;
 }
 
+@media (max-width: 992px) {
+	.print-text {
+	font-size: 1.3em;
+	}
+
+	.print-text2 {
+		font-size: 1.5em;
+	}
+}
+
 .custom-footer {
 	background-color: #1E0C11;
 	padding: 10px;
